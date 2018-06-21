@@ -8,7 +8,9 @@ class Person :
 p = Person("aiden")
 p.sayHello()
 print(p.name)
-# 继承
+
 class Student:
     def __init__(self, name):
         Person.__init__(self, name)
+
+

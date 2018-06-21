@@ -1,4 +1,4 @@
-
+# -*- coding: utf-8 -*
 score = 90
 
 if score >= 80 :
