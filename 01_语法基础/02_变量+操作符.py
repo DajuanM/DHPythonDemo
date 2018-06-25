@@ -23,6 +23,7 @@ print(s4)
 s = "i am {1} years old, i love {0} and i am {1} years old".format("wei", 18)
 print(s)
 
+
 # 算术运算符
 # python2.0 取整 python3.0 数学运算
 a = 9 / 4
