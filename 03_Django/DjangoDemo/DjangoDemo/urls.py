@@ -15,5 +15,11 @@ urlpatterns = [
     url(r'^book/(?:page-(?P<pn>\d+)/)$', tv.do_param2),
     url(r'^name/$', tv.extremParam, {"name": "Aiden"}),
     url(r'^abcdname/', tv.revParse, name="askname"),
-    url(r'^v_exception', tv.v_exception)
+    url(r'^v_exception', tv.v_exception),
+    url(r'^v10_1/', tv.v10_1),
+    url(r'^v10_2/', tv.v10_2),
+    url(r'^v11/', tv.v11, name="v11"),
+    url(r'^v8/', tv.v8_get),
+    url(r'v9_get/', tv.v9_get),
+    url(r'v9_post/', tv.v9_post)
 ]

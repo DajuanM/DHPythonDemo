@@ -1,7 +1,9 @@
 from django.shortcuts import render
 from django.http import HttpResponse, Http404
 from django.http import JsonResponse
-from django.core.urlresolvers import reverse
+from django.core.urlresolvers import reverse # 反向解析
+from django.http import HttpResponseRedirect # 重定向
+from django.shortcuts import render, render_to_response
 # Create your views here.
 
 # 视图函数需要有一个参数，类型是HttpResponse
@@ -33,3 +35,29 @@ def revParse(r):
 def v_exception(r):
     raise Http404
     return HttpResponse("OK")
+
+def v10_1(r):
+    return HttpResponseRedirect("/v11")
+
+def v10_2(r):
+    return HttpResponseRedirect(reverse("v11"))
+
+def v11(r):
+    return HttpResponse("这是v11的访问返回内容")
+
+def v8_get(r):
+    rst = ""
+    for k,v in r.GET.items():
+        rst += k + "----->" + v
+        rst += ","
+    return HttpResponse("get value of GET is {0}".format(rst))
+
+def v9_get(r):
+    return render_to_response("for_post.html")
+
+def v9_post(r):
+    rst = ""
+    for k,v in r.POST.items():
+        rst += k + "----->" + v
+        rst += ","
+    return HttpResponse("get value of POST is {0}".format(rst))
