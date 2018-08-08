@@ -25,7 +25,7 @@ SECRET_KEY = 'o1*39m1=iyf_&_^-r)r(6#j6m)ef^06ej$x8m6b#36-qd8*wgm'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["*"]
 
 
 # Application definition
@@ -74,13 +74,21 @@ WSGI_APPLICATION = 'DjangoDemo.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/1.8/ref/settings/#databases
-
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'NAME': os.path.join(BASE_DIR, 'db.sqlite3')
     }
 }
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.mysql',#'django.db.backends.sqlite3',
+#         'NAME': '数据库名',#os.path.join(BASE_DIR, 'db.sqlite3'),
+#         'PASSWORD': '数据库密码',
+#         'HOST': '127.0.0.1',
+#         'PORT': '3306'
+#     }
+# }
 
 
 # Internationalization

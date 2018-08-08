@@ -54,6 +54,7 @@ def v8_get(r):
 
 def v9_get(r):
     return render_to_response("for_post.html")
+    # return render_to_response("for_post.html", context=c)
 
 def v9_post(r):
     rst = ""
@@ -61,3 +62,26 @@ def v9_post(r):
         rst += k + "----->" + v
         rst += ","
     return HttpResponse("get value of POST is {0}".format(rst))
+
+
+def render_test(r):
+    rsp = render(r, "render.html")
+    return rsp
+
+def render2_test(r):
+    c = dict()
+    c["name"] = "Aiden"
+    rsp = render(r, "render2.html", context=c)
+    return rsp
+
+def render3_test(r):
+    from django.template import loader
+    t = loader.get_template("render2.html")
+    r = t.render({"name": "Aiden3"})
+    # rsp = render(r, "render2.html", context=c)
+    return HttpResponse(r)
+
+def get404(r):
+    from django.views import defaults
+    return defaults.page_not_found(r, Exception)
+    # return defaults.page_not_found(r, template_name="render.html")

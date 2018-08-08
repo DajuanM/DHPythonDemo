@@ -21,5 +21,9 @@ urlpatterns = [
     url(r'^v11/', tv.v11, name="v11"),
     url(r'^v8/', tv.v8_get),
     url(r'v9_get/', tv.v9_get),
-    url(r'v9_post/', tv.v9_post)
+    url(r'v9_post/', tv.v9_post),
+    url(r'^render_test', tv.render_test),
+    url(r'^render2_test', tv.render2_test),
+    url(r'^render3_test', tv.render3_test),
+    url(r'^get404', tv.get404)
 ]

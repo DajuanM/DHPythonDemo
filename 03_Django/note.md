@@ -245,6 +245,25 @@
             ]
         ```
 
+     - ORM
+        - models常用字段
+            1. max_length:
+            2. blank: 是否允许字段为空, 默认不允许
+            3. null: 在db中控制是否保持为null, 默认为false
+            4. default:
+            5. unique:
+            6. verbose_name: 假名
+
+         - 数据库迁移
+            ```
+            python3 manage.py migrate
+            ```
+            # 强制迁移命令
+            ```
+            python3 mamnage.py makemigrations 应用名
+            python3 manage.py migrate 应用名
+            ```
+
 
 
 
