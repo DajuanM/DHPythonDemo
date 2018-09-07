@@ -48,6 +48,9 @@ def main():
 
     print("正在运行的子线程数量为： {0}".format(threading.activeCount()))
 
+    # t1.join()
+    # t2.join()
+    # t3.join()
     print("All done at:", time.ctime())
 
 if __name__ == "__main__":

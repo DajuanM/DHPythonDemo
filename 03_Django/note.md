@@ -263,7 +263,64 @@
             python3 mamnage.py makemigrations 应用名
             python3 manage.py migrate 应用名
             ```
+         - 查看数据库中数据
+         ```
+         1. 启动命令行： python3 manage.py shell
+            ps: 对于ormd的操作分为静态函数和非静态函数，静态是内存中只存在一份，非静态是一个类存在一份
+         2. 命令行中导入对应的映射类
+            from 应用名.models import 类名
+         3. 使用objects操作数据库，objects是模型中实际和数据集进行交互的对象
+         4. 查询语句
+            - 类名.objects.all() 查询数据库中的多有对象
+            - 类名.objects.filter(条件)
 
+         - 常用查找方法
+            1. 通用查找格式 属性名__(用下面的内容) = 值
+                - gt: 大于
+                - gte: 大于等于
+                - lt: 小于
+                - lte: 小于等于
+                - range: 范围
+                - year: 年份
+                - isnull: 是否为空
+            2. 查找等于值: = 值
+            3. 模糊查找 属性名__(用下面的内容) = 值
+                - exact: 精确等于
+                - iexact: 不区分大小写
+                - contains: 包含
+                - startwith: 以什么开头
+                - endwith: 以什么结尾
+                
+
+
+        shell使用
+             ```
+            from app名.models import *
+
+            ss = School.objects.all()
+
+            s = School()
+            s.school_id = 1
+            s.school_name = "xikeda"
+            s.save()
+
+           # m = Manager.objects.create(manager_id=11,manager_name="wei",my_school=s) //不需要再save()
+            m = Manager()
+            m.manager_id = 10
+            m.manager_name = "aiden"
+            m.school = s
+            m.save()
+            //母表查子表
+            school_name = Manager.objects.get(manager_name="aiden").my_school.school_name
+            //子表查母表
+            s = School.objects.get(manager__manager_name="aiden")
+
+            //单个修改用save()
+            //全部修改用update()
+            ss.update(school_name="aiden")
+
+            //删除delete()
+            ```
 
 
 

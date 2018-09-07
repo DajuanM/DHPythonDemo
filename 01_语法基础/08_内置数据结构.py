@@ -33,6 +33,7 @@ print(a.remove(1))
 print(a.reverse())
 b = [10, 11, 12]
 print(a.extend(b))
+print(a)
 print(a.count(2))
 
 

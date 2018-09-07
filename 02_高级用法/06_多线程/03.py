@@ -44,4 +44,5 @@ if __name__ == "__main__":
     # 因为启动多线程后本程序就作为主线程存在
     # 如果主线程执行完毕，则子线程可能也需要终止
     while True:
-        time.sleep(10)
+        pass
+        # time.sleep(10)

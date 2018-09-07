@@ -33,7 +33,7 @@ print(a)
 # 双层列表循环
 
 #a 为嵌套列表，或者叫双层列表
-a = [["one", 1], ["two", 2], ["three", 3] ]
+a = [["one", 1], ["two", 2], ["three", 3]]
 # 数量必须一致
 for k,v in a:
     print(k, "--", v)

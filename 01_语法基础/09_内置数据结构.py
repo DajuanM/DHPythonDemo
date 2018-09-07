@@ -112,7 +112,7 @@ print(d)
 
 
 #
-d = dict( [("one",1), ("two",2), ("three",3)])
+d = dict([("one",1), ("two",2), ("three",3)])
 print(d)
 
 # 成员检测， in， not in
@@ -169,7 +169,7 @@ print(d.get("one", 100))
 print(d.get("one333", 100))
 
 #体会以下代码跟上面代码的区别
-print(d['on333'])
+# print(d['on333'])
 
 # fromkeys: 使用指定的序列作为键，使用一个值作为字典的所有的键的值
 l = ["eins", "zwei", "drei"]

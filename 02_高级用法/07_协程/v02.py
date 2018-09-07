@@ -8,9 +8,12 @@ def simple_coroutine(a):
     c = yield a + b
     print('-> recived', a, b, c)
 
+    d = yield a + b + c
+    print('-> recived', a, b, c, d)
+
 # runc
 sc = simple_coroutine(5)
-
+print("=====")
 aa = next(sc)
 print(aa)
 bb = sc.send(6) # 5, 6

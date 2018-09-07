@@ -137,13 +137,13 @@ print(t)
 # 把此字符串返回十进制的数字
 def int16(x, base=16):
     return int(x, base)
-
-int16("12345")
+print("------")
+print(int16("12345"))
 
 import functools
 # 参数固定的函数，相当于一个由特定参数的函数体
 # functools.partial的作用是，把一个函数某些函数固定，返回一个新函数
 #实现上面int16的功能
 int16 = functools.partial(int, base=16)
-int16("12345")
+print(int16("12345"))
 
