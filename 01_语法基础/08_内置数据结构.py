@@ -30,6 +30,7 @@ a.insert(2, 7)
 print(a)
 print(a.pop())
 print(a.remove(1))
+print(a.remove(7))
 print(a.reverse())
 b = [10, 11, 12]
 print(a.extend(b))

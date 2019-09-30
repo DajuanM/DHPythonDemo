@@ -190,7 +190,7 @@ class Human(metaclass=abc.ABCMeta):
 
     # 定义类抽象方法
     @abc.abstractclassmethod
-    def drink():
+    def drink(self):
         pass
 
     # 定义静态抽象方法

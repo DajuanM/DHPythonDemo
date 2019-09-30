@@ -130,10 +130,10 @@ print( (t1+td).strftime("%Y-%m-%d %H:%M:%S"))
 # timeit-时间测量工具
 
 # 测量程序运行时间间隔实验
-def p():
-    time.sleep(3.6)
+# def p():
+#     time.sleep(3.6)
 
 
-t1 = time.time()
-p()
-print(time.time() - t1)
+# t1 = time.time()
+# p()
+# print(time.time() - t1)

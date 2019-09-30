@@ -9,6 +9,7 @@ def hano(n, a, b, c):
         print(b, "-->", c)
         return None
 
+
     # 先把n-1个盘子从a挪到b
     hano(n-1, a, c, b)
     # 最大的盘子从a挪到c
@@ -20,7 +21,7 @@ hano(3, "A", "B", "C")
 
 # 列表
 a = [1, 2, 3]
-b = [4, 5, 6]
+b = [4, 5]
 c = ["a", "b", "c"]
 print(len(a))
 print(a + b + c)
