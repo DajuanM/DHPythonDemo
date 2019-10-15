@@ -13,6 +13,7 @@ t1 = threading.Thread(target=fun, args=() )
 t1.setDaemon(True)
 #t1.daemon = True
 t1.start()
+# t1.join()
 
 time.sleep(1)
 print("Main thread end")

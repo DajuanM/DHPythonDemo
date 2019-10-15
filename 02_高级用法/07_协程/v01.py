@@ -11,3 +11,4 @@ next(sc)
 print(2222)
 sc.send('zhexiao')
 
+
