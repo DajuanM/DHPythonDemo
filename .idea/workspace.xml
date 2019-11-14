@@ -2,45 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69c640d3-68b3-41ee-90be-8bc56567b327" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/DHPythonDemo.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vscode/launch.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vscode/settings.json" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/03_Django/DjangoDemo/DjangoDemo/__init__.py" afterPath="$PROJECT_DIR$/04_Django/DjangoDemo/DjangoDemo/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/03_Django/DjangoDemo/DjangoDemo/settings.py" afterPath="$PROJECT_DIR$/04_Django/DjangoDemo/DjangoDemo/settings.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/03_Django/DjangoDemo/DjangoDemo/urls.py" afterPath="$PROJECT_DIR$/04_Django/DjangoDemo/DjangoDemo/urls.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/03_Django/DjangoDemo/DjangoDemo/wsgi.py" afterPath="$PROJECT_DIR$/04_Django/DjangoDemo/DjangoDemo/wsgi.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/03_Django/DjangoDemo/db.sqlite3" afterPath="$PROJECT_DIR$/04_Django/DjangoDemo/db.sqlite3" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/03_Django/DjangoDemo/manage.py" afterPath="$PROJECT_DIR$/04_Django/DjangoDemo/manage.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/03_Django/DjangoDemo/teacher/__init__.py" afterPath="$PROJECT_DIR$/04_Django/DjangoDemo/teacher/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/03_Django/DjangoDemo/teacher/admin.py" afterPath="$PROJECT_DIR$/04_Django/DjangoDemo/teacher/admin.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/03_Django/DjangoDemo/teacher/migrations/0001_initial.py" afterPath="$PROJECT_DIR$/04_Django/DjangoDemo/teacher/migrations/0001_initial.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/03_Django/DjangoDemo/teacher/migrations/__init__.py" afterPath="$PROJECT_DIR$/04_Django/DjangoDemo/teacher/migrations/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/03_Django/DjangoDemo/teacher/models.py" afterPath="$PROJECT_DIR$/04_Django/DjangoDemo/teacher/models.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/03_Django/DjangoDemo/teacher/teacher_urls.py" afterPath="$PROJECT_DIR$/04_Django/DjangoDemo/teacher/teacher_urls.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/03_Django/DjangoDemo/teacher/tests.py" afterPath="$PROJECT_DIR$/04_Django/DjangoDemo/teacher/tests.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/03_Django/DjangoDemo/teacher/views.py" afterPath="$PROJECT_DIR$/04_Django/DjangoDemo/teacher/views.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/03_Django/DjangoDemo/templates/for_post.html" afterPath="$PROJECT_DIR$/04_Django/DjangoDemo/templates/for_post.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/03_Django/DjangoDemo/templates/render.html" afterPath="$PROJECT_DIR$/04_Django/DjangoDemo/templates/render.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/03_Django/DjangoDemo/templates/render2.html" afterPath="$PROJECT_DIR$/04_Django/DjangoDemo/templates/render2.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/03_Django/Django_db/Django_db/__init__.py" afterPath="$PROJECT_DIR$/04_Django/Django_db/Django_db/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/03_Django/Django_db/Django_db/settings.py" afterPath="$PROJECT_DIR$/04_Django/Django_db/Django_db/settings.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/03_Django/Django_db/Django_db/urls.py" afterPath="$PROJECT_DIR$/04_Django/Django_db/Django_db/urls.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/03_Django/Django_db/Django_db/wsgi.py" afterPath="$PROJECT_DIR$/04_Django/Django_db/Django_db/wsgi.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/03_Django/Django_db/Relation_db/__init__.py" afterPath="$PROJECT_DIR$/04_Django/Django_db/Relation_db/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/03_Django/Django_db/Relation_db/admin.py" afterPath="$PROJECT_DIR$/04_Django/Django_db/Relation_db/admin.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/03_Django/Django_db/Relation_db/migrations/0001_initial.py" afterPath="$PROJECT_DIR$/04_Django/Django_db/Relation_db/migrations/0001_initial.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/03_Django/Django_db/Relation_db/migrations/__init__.py" afterPath="$PROJECT_DIR$/04_Django/Django_db/Relation_db/migrations/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/03_Django/Django_db/Relation_db/models.py" afterPath="$PROJECT_DIR$/04_Django/Django_db/Relation_db/models.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/03_Django/Django_db/Relation_db/tests.py" afterPath="$PROJECT_DIR$/04_Django/Django_db/Relation_db/tests.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/03_Django/Django_db/Relation_db/views.py" afterPath="$PROJECT_DIR$/04_Django/Django_db/Relation_db/views.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/03_Django/Django_db/db.sqlite3" afterPath="$PROJECT_DIR$/04_Django/Django_db/db.sqlite3" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/03_Django/Django_db/manage.py" afterPath="$PROJECT_DIR$/04_Django/Django_db/manage.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/03_Django/note.md" afterPath="$PROJECT_DIR$/04_Django/note.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/DHPythonDemo.iml" afterPath="$PROJECT_DIR$/.idea/DHPythonDemo.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.vscode/settings.json" afterPath="$PROJECT_DIR$/.vscode/settings.json" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -104,7 +69,7 @@
     <SUITE FILE_PATH="coverage/DHPythonDemo$04_while_.coverage" NAME="04_while+函数 Coverage Results" MODIFIED="1534946451117" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/01_语法基础" />
     <SUITE FILE_PATH="coverage/DHPythonDemo$10_OOP.coverage" NAME="10_OOP Coverage Results" MODIFIED="1534949464965" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/01_语法基础" />
     <SUITE FILE_PATH="coverage/DHPythonDemo$v09.coverage" NAME="v09 Coverage Results" MODIFIED="1535463310554" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/02_高级用法/07_协程" />
-    <SUITE FILE_PATH="coverage/DHPythonDemo$v1.coverage" NAME="v1 Coverage Results" MODIFIED="1536589746811" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03_爬虫" />
+    <SUITE FILE_PATH="coverage/DHPythonDemo$v1.coverage" NAME="v1 Coverage Results" MODIFIED="1571938590201" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03_爬虫" />
     <SUITE FILE_PATH="coverage/DHPythonDemo$07_.coverage" NAME="07_内置数据结构 Coverage Results" MODIFIED="1534947234133" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/01_语法基础" />
     <SUITE FILE_PATH="coverage/DHPythonDemo$21.coverage" NAME="21 Coverage Results" MODIFIED="1535382044925" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/02_高级用法/06_多线程" />
   </component>
@@ -313,21 +278,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="note.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/03_爬虫/note.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="6" lean-forward="true" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="v1.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/03_爬虫/v1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="11" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+            <state relative-caret-position="135">
+              <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -419,7 +374,7 @@
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1280" />
-    <option name="height" value="714" />
+    <option name="height" value="721" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -439,7 +394,116 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="External Dependencies">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="/">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Users">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="aiden">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Library">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Caches">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="PyCharm2017.1">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="python_stubs">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="942206039">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="DHPythonDemo">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="DHPythonDemo">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="04_Django">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="DHPythonDemo">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="04_Django">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="DjangoDemo">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="DHPythonDemo">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="04_Django">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="DjangoDemo">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="DjangoDemo">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -518,39 +582,12 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="DHPythonDemo">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="DHPythonDemo">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="03_爬虫">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="/anaconda3/envs/aiden/bin/python3.6" />
+    <property name="last_opened_file_path" value="/opt/anaconda3/envs/aiden/bin/python3.7" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/aiden/代码/git代码库/DHPythonDemo/01_语法基础/08_内置数据结构.py" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
@@ -886,18 +923,18 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="714" extended-state="6" />
+    <frame x="0" y="23" width="1280" height="721" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21082391" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21728595" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32961783" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.414791" sideWeight="0.503231" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329582" sideWeight="0.503231" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.414791" sideWeight="0.49676898" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41335455" sideWeight="0.49676898" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32961783" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32961783" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290938" sideWeight="0.49676898" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45659164" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1253,7 +1290,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1261,7 +1297,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1269,7 +1304,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1277,9 +1311,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding>
-            <element signature="e#9#23#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1287,7 +1318,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1295,9 +1325,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="21" column="15" lean-forward="false" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
-          <folding>
-            <element signature="e#20#51#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1305,9 +1332,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="16" column="34" lean-forward="false" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#41#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1315,9 +1339,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1035">
           <caret line="74" column="14" lean-forward="false" selection-start-line="74" selection-start-column="14" selection-end-line="74" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#35#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1325,7 +1346,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="7" lean-forward="false" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1333,22 +1353,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/03_爬虫/note.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="10" column="6" lean-forward="true" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
-          <folding />
+          <caret line="10" column="6" lean-forward="false" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/03_爬虫/v1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="11" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+        <state relative-caret-position="135">
+          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
           <folding />
         </state>
       </provider>
